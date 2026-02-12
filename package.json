@@ -1,0 +1,39 @@
+{
+  "name": "awos_practica04_240537",
+  "version": "1.0.0",
+  "description": "---\r <p align=\"justify\">\r Desarrollar una aplicación web con autenticación OAuth 2.0 para 5 redes sociales, mostrando datos del perfil del usuario después del login exitoso.</p>",
+  "main": "index.js",
+   "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js",
+    "build:css": "tailwindcss -i ./src/input.css -o ./public/css/output.css",
+    "watch:css": "tailwindcss -i ./src/input.css -o ./public/css/output.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NataliaMtz123/AWOS_Practica04_240537.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/NataliaMtz123/AWOS_Practica04_240537/issues"
+  },
+  "homepage": "https://github.com/NataliaMtz123/AWOS_Practica04_240537#readme",
+  "dependencies": {
+    "cors": "^2.8.6",
+    "dotenv": "^17.2.4",
+    "ejs": "^4.0.1",
+    "express": "^5.2.1",
+    "express-session": "^1.19.0",
+    "passport": "^0.7.0",
+    "passport-local": "^1.0.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.24",
+    "nodemon": "^3.1.11",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^3.4.19"
+  }
+}
