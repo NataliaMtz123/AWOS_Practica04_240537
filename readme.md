@@ -31,7 +31,7 @@ gestionarse debidamente en el uso del control de versiones y ramas progresivas.<
 |-----|--------------------------------------------------|-------------|----------------|
 | 1.  | Configuración Inicial del Proyecto | ✅ | ✅Finalizado  |  
 | 2.  | Configuración de Tailwind CSS 4  | ✅ |✅Finalizado |  
-| 3.  |  Configuración del Servidor Express| ❌ |❌  |  
+| 3.  |  Configuración del Servidor Express| ✅ |✅Finalizado  |  
 | 4.  | Configuración de API Keys Gratuitas | ❌ | ❌ |  
 | 5.  | Implementación de Passport y Estrategias OAuth | ❌ | ❌ |  
 | 6.  | Creación de Vistas con Tailwind CSS |  ❌|  ❌|  
